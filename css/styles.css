@@ -4,6 +4,19 @@
 p {
 	line-height: 1.5em;
 	}
+	
+/* Lane Narrow Typography */
+@font-face {
+    font-family: 'lane_-_narrowregular';
+    src: url('../fonts/LANENAR_-webfont.eot');
+    src: url('../fonts/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LANENAR_-webfont.woff') format('woff'),
+         url('../fonts/LANENAR_-webfont.ttf') format('truetype'),
+         url('../fonts/LANENAR_-webfont.svg#lane_-_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*==============================
 	Structure & Layout 
@@ -103,6 +116,10 @@ nav a:active {
 	margin-top: 10px;
 }
 
+/* Students Icon */
+nav li:nth-child(2) a {
+	background: url("../img/spritemap.png") no-repeat left center;
+	}
 
 /*==============================
 	Navigation: Page Indicators
@@ -124,6 +141,7 @@ nav a:active {
 }
 
 .about section h2 {
+	font-family: 'lane_-_narrowregular', sans-serif;
 	margin-left: -40px;
 }
 
@@ -197,12 +215,12 @@ label {
 
 <!-- Gallery Style -->
 .gallery .control-button {
-  color: #ccc;
+  color: red;
   color: rgba(255, 255, 255, 0.4);
 }
 
 .gallery .control-button:hover {
-  color: white;
+  color: green;
   color: rgba(255, 255, 255, 0.8);
 }
 
